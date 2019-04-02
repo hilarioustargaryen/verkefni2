@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Socket.IO Chat</title>
+</head>
+<body>
+    <input type="text" id="passbox"><br>
+    <p>Lykilorð</p>
+    <button id="btn"><h3>Skrá Inn</h3></button>
+
+   <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+   <script type="text/javascript">
+   	
+   	document.getElementById("btn").addEventListener('click', function(){
+   		var pass = $('#passbox').val();
+   		window.location = pass;
+   	});
+
+   </script>
+</body>
+</html>
